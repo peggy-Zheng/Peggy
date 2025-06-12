@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f3d6
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    background: rgb(236, 216, 189);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+/*滑鼠滑過去變顏色*/
+.menu a:hover {
+    background-color: #dd9090;
+    text-decoration: none;
+}
+.sub-title {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #fabf1d;
+    border-left: 10px solid #faeaa2;
+    color: #d3c652;
+}
+.curriclum {
+    width: 90%;
+    border: 2px dotted;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 14px;
+    max-width: 800px;
+}
+
+.curriclum th {
+    border: 1px solid #f3c5c9;
+}
+
+th,
+tr {
+    padding: 8px;
+    text-align: center;
+}
+
+#all{
+    color:#da7d7d
+}
+header{
+    text-align: center;
+}
+a {
+    color: rgb(137, 125, 247);
+}
+
+a:hover {
+    color: rgba(166, 213, 240, 0.856);
+    text-decoration: none;
+}

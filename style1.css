@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f3d6
+}
+h1 {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #fcbeaece;
+    background-color: rgb(236, 216, 189);
+    color: #f3c5c9;
+    font-size: 200%;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px #da360d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+    
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    background: rgb(236, 216, 189);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+/*滑鼠滑過去變顏色*/
+.menu a:hover {
+    background-color: #dd9090;
+}
+.sub-title {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #fabf1d;
+    border-left: 10px solid #faeaa2;
+    color: #d3c652;
+}
+header{
+    text-align: center;
+}
+
+#good {
+    font-size: 25px;
+    color: #b7ccff;
+}
+
+a {
+    color: rgb(137, 125, 247);
+}
+
+a:hover {
+    color: rgba(166, 213, 240, 0.856);
+    text-decoration: none;
+}
+
+a[href^="mailto:"]::after {
+    content: "";/*檔案*/
+    background-image: url("image/gmail.png");
+    background-size: contain; /*mail檔案*/
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-repeat: no-repeat;/*不會覆蓋*/
+    display: inline-block;
+}
